@@ -435,7 +435,7 @@ GarageArea: Size of garage in square feet
 
 GarageQual: Garage quality
 
-       Ex	Excellent
+       Ex	Excellent 
        Gd	Good
        TA	Typical/Average
        Fa	Fair
