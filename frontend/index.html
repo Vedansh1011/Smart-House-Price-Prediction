@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart House Price Prediction</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏠 Smart House Price Prediction</h1>
+
+    <p class="subtitle">
+        Enter the house details below to estimate its selling price.
+    </p>
+
+    <div class="card">
+
+        <label>Overall Quality (1-10)</label>
+        <input
+            type="number"
+            id="overallQual"
+            min="1"
+            max="10"
+            placeholder="Example: 7">
+
+        <label>Ground Living Area (sq ft)</label>
+        <input
+            type="number"
+            id="grLivArea"
+            placeholder="Example: 1710">
+
+        <label>Garage Capacity (Cars)</label>
+        <input
+            type="number"
+            id="garageCars"
+            placeholder="Example: 2">
+
+        <label>Total Basement Area (sq ft)</label>
+        <input
+            type="number"
+            id="totalBsmtSF"
+            placeholder="Example: 856">
+
+        <label>Year Built</label>
+        <input
+            type="number"
+            id="yearBuilt"
+            placeholder="Example: 2003">
+
+        <button id="predictBtn">
+            Predict Price
+        </button>
+
+    </div>
+
+    <div class="result">
+
+        <h2>Predicted Price</h2>
+
+        <h1 id="prediction">
+            ₹ --
+        </h1>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
