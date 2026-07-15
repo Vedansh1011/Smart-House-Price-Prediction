@@ -1,4 +1,8 @@
 from pydantic import BaseModel
 
 class PredictionRequest(BaseModel):
-    pass
+    OverallQual: int
+    GrLivArea: float
+    GarageCars: int
+    TotalBsmtSF: float
+    YearBuilt: int
