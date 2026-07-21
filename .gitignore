@@ -19,7 +19,3 @@ __pycache__/
 
 # Logs
 *.log
-
-# Model Files (optional, if very large)
-*.pkl
-*.joblib
