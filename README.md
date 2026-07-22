@@ -624,7 +624,7 @@ http://127.0.0.1:8000/docs
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Vedansh1011/Smart-House-Price-Prediction.git
+git clone https://github.com/Vedansh1011/Smart-House-Price-Prediction.gitcd
 
 cd Smart-House-Price-Prediction
 ```

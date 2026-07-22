@@ -9,8 +9,8 @@ from utils.preprocessing import preprocess_input
 
 MODELS_DIR = Path(r"C:\Users\HP\AI Projects\Smart-House-Price-Prediction\models")
 
-model = joblib.load(MODELS_DIR / "gradient_boosting.pkl")
-scaler = joblib.load(MODELS_DIR / "scaler.pkl")
+model = joblib.load(MODELS_DIR / "gradient_boosting_tuned.pkl")
+scaler = joblib.load(MODELS_DIR / "standard_scaler.pkl")
 feature_columns = joblib.load(MODELS_DIR / "feature_columns.pkl")
 
 print("✅ Gradient Boosting model loaded successfully.")
