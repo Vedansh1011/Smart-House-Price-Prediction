@@ -10,7 +10,7 @@ def health():
 
 @router.post("/predict")
 def predict(data: PredictionRequest):
-    price = predict_house_price(data.model_dump())
+    price = predict_house_price(data.model_dump(by_alias=True))
 
     return {
         "Predicted Price": round(price, 2)
